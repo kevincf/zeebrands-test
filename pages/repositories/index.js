@@ -77,33 +77,7 @@ const Repositories = () => {
                             })}
                         </ul>
                     </>
-                        /*  <div>
-                             <Image src={user.avatar_url} alt='Zeebrands' width={'300px'} height={'300px'} />
-                             <h2>{user.login}</h2>
-                             <Card>
-                                 <Card.Body>
-                                     <Container>
-                                         <Row>
-                                             <Col>
-                                                 <ul style={styles.ul}>
-                                                     <li>Folowers: {user.followers}</li>
-                                                     <li>Public Repos: {user.public_repos}</li>
-                                                     <li>Following: {user.following}</li>
-                                                 </ul>
-                                             </Col>
-                                             <Col>
-                                                 <ul style={styles.ul}>
- 
-                                                     <li>Email: {user.email ? user.email : 'NA'}</li>
-                                                     <li>Location: {user.location ? user.location : 'NA'}</li>
-                                                     <li>Bio: {user.bio ? user.bio : 'NA'}</li>
-                                                 </ul>
-                                             </Col>
-                                         </Row>
-                                     </Container>
-                                 </Card.Body>
-                             </Card>
-                         </div> */
+                       
                     }
                     {repos === 'Not Found' && (
                         <h2>Nothing in here!</h2>
